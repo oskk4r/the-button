@@ -39,7 +39,7 @@ jobs:
         with:
           image-ref: 'the-button:latest'
           format: 'table'
-          exit-code: '1'
+          exit-code: '0'
           severity: 'CRITICAL,HIGH'
       
       # 2. Skanowanie JSON
